@@ -10,7 +10,7 @@ class Brasao extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: width,
-      child: Hero(tag: image!, child: Image.network(image!, fit: BoxFit.contain))
+      child: Hero(tag: image!, child: Image.network(image!, fit: BoxFit.cover))
     );
   }
   
